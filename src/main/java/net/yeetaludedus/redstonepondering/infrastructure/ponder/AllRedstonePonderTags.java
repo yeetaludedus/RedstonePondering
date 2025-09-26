@@ -26,7 +26,7 @@ public class AllRedstonePonderTags {
 
         helper.registerTag(loc("power_relays"))
                 .addToIndex()
-                .item(Items.REDSTONE,true,true)
+                .item(Blocks.REDSTONE_WIRE::asItem,true,true)
                 .title("Redstone dust relaying")
                 .description("How redstone relays power to other components")
                 .register();
