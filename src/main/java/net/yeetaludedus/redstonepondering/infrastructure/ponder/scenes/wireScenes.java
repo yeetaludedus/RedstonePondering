@@ -14,6 +14,7 @@ public class wireScenes {
 
         scene.title("wire","Powering components with redstone dust");
         scene.configureBasePlate(0,0,5);
+        scene.idle(10);
         scene.overlay().showText(1000)
                 .text("test")
                 .placeNearTarget()
